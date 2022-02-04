@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Local') {
+            steps {
+                sh 'echo local'
+            }
+        }
+    }
+}
